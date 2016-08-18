@@ -8,6 +8,20 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Pivot x:Name="rootPivot" Title="Raspberry Pi Running Windows 10 IoT Core: Pi Vote">
+            <PivotItem Header="Configure">
+                <!--Pivot content goes here-->
+                <TextBlock Text="Replace me with your XAML content in View1."/>
+            </PivotItem>
+            <PivotItem Header="Test">
+                <!--Pivot content goes here-->
+                <TextBlock Text="Replace me with your XAML content in View2."/>
+            </PivotItem>
+            <PivotItem Header="Vote">
+                <!--Pivot content goes here-->
+                <TextBlock Text="Replace me with your Xaml content in View3."/>
+            </PivotItem>
+        </Pivot>
 
     </Grid>
 </Page>
